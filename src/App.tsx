@@ -20,6 +20,12 @@ function App() {
 		<p className="box-marketing spacing"></p>
 		<p className="box-ceo spacing"></p>
 		<p className="box-dev spacing"></p>
+
+		<p className="rectangle-purple spacing"></p>
+		<p className="rectangle-orchid spacing"></p>
+		<p className="rectangle-goldenrod spacing"></p>
+		<p className="rectangle-tomato spacing"></p>
+		<p className="rectangle-limegreen spacing"></p>
 		</>
 	)
 }
