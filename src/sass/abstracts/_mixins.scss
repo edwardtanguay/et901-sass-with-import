@@ -1,8 +1,9 @@
-@mixin alert-text($bgcolor: #555) {
+@mixin alert-text($bgcolor: #777, $border:1px solid black ) {
 	color: black;
 	font-variant: small-caps;
 	padding: .5rem;
 	width: fit-content;
-	border: 1px solid black;
+	border:$border; 
 	background-color: $bgcolor;
+	@content;
 }
