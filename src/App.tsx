@@ -14,6 +14,12 @@ function App() {
 		<p className="ball-002 shadow spacing"></p>
 		<p className="ball-003 spacing"></p>
 		<p className="ball-004 spacing"></p>
+
+		<p className="box-sales spacing"></p>
+		<p className="box-hr spacing"></p>
+		<p className="box-marketing spacing"></p>
+		<p className="box-ceo spacing"></p>
+		<p className="box-dev spacing"></p>
 		</>
 	)
 }
