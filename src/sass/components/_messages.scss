@@ -1,3 +1,15 @@
 .error-text {
-	color: red;
+	@include alert-text;
+}
+
+.info-text {
+	@include alert-text;
+}
+
+.normal-text {
+	@include alert-text;
+}
+
+.faded-text {
+	@include alert-text;
 }
