@@ -13,4 +13,13 @@
 	width: $size;
 	height: $size;
 	border-radius: 50%;
+	@if $size >= 0rem {
+		border: 0px;
+	}
+	@if $size >= 2rem {
+		border: 1px solid black;
+	}
+	@if $size >= 4rem {
+		border: 2px solid black;
+	}
 }
